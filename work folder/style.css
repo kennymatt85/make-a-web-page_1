@@ -1,0 +1,120 @@
+/* This is a CSS comment.*/
+body{
+    font-family: Helvetica;
+}
+/* use percentages in order to avoid sizing issues*/
+.header{
+    width: 95%;
+    border: 2px;
+    border-color: black;
+    margin: 2.5%;
+    border-style: solid;
+    border-radius: 10px;
+    display: flex;
+}
+.title{
+    width: 48%;
+    background-color: #990000;
+    color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 2%;
+    padding: 0.5%;
+
+
+}
+
+.lesson-grouped{
+    font-size: 12px;
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 35%;
+
+    
+}
+.lesson-header{
+    background-color: #000099;
+    padding: 2px;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-bottom: 1%;
+}
+/* when general hyperlink colour*/
+a:link{
+    color: white;
+    text-decoration: none;
+
+}
+/* when visited hyperlink*/
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+/* when hovering over hyperlink*/
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+.lesson{
+    width: 95%;
+    border: 2px;
+    border-color: black;
+    margin: 2.5%;
+    border-style: solid;
+    border-radius: 10px;
+}
+#lesson-1-1{
+    background-color: green; 
+}
+#lesson-1-2{
+    background-color: yellow; 
+}
+#lesson-1-3{
+    background-color: orange; 
+}
+
+.lesson-body{
+    border: 2px;
+    border-color: black;
+    margin: 0.5%;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #BCC6CC;
+    padding: 10px;
+    font-size: 14px;
+}
+table{
+    border: 1px;
+    border-style: solid;
+    text-align: center; 
+    width: 96.5%
+}
+/* need to add td styling in order to make it look like a table*/
+td{
+    border: 1px;
+    border-style: solid;
+}
+img{
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+/* use the following styling to centre image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.highlight{
+    background-color: red;
+}
+/* needed to size images as a percentage to make them responsive*/
+.step-by-step{
+    width: 70%;
+    margin-top: 2%;
+
+}
+.web-diagram{
+    width: 60%;
+}
+.tags{
+    width: 35%;
+}
