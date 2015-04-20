@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Stage 1 Notes</title>
+</head>
+<body>
+<!-- Document Header -->
+  <div class="header">
+    <h1 class="title">Major Concepts From Stage 1</h1>
+    <div class="lesson-grouped">
+      <div class="lesson-header">
+        <a href="#lesson-1-1">Lesson 1.1 The Basics of the Web and HTML</a>
+      </div>
+      <div class="lesson-header">
+        <a href="#lesson-1-2">Lesson 1.2 Creating a Structured Document</a>
+      </div>
+      <div class="lesson-header">
+        <a href="#lesson-1-3">Lesson 1.3 Adding CSS Style and HTML Structure</a>
+      </div>
+    </div>
+  </div>
+  <div class="lesson" id="lesson-1-1">
+    <div class="lesson-body">
+    <h2><u>Lesson 1.1: The Basics of the Web and HTML</u></h2>
+    <b>Basics of the Web</b>
+    <!-- To write a bullet point list start list with <ul> tag each element must be contained within a <li> tag <ul> tag is block so no need to include <p> tag -->
+
+    <ul>
+    <li>World Wide Web was invented in the 1990's</li>
+    <li>Now consists of approximately 30 billion pages!</li>
+    <li>The majority of content on the web is made up of <i>Hyper Text Markup Language</i> (HTML for short)</li>
+    <li>Hyperlinks link the web together</li>
+    </ul>
+
+    <b>So how does the Web work?</b>
+    <p>
+      <img class="web-diagram" src="http://www.idealsealants.com/downloads/1428668067diagram_how_the_web_works.jpg" alt="diagram of how the web works">
+    <br><br>For example if I login to my computer and click on Google Chrome (My Browser). I will then type in a url this sends a <i>HTTP Request</i> to a <i>server</i>. The
+    server finds the appropriate HTML document and sends
+    it back to the my computer where <i>Google Chrome</i>
+    interprets the page and displays it my screen.
+    <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496">This video</a>
+    provides further information.
+    </p>
+
+    <b>HTML</b>
+    <p>
+    HTML stands for <i>Hypertext Markup Language.</i> HTML documents form the majority of the
+      content on the web. HTML is made up of: </p>
+    <ul>
+    <li>Text Content- "What you see"</li>
+    <li>Markup- "What it looks like"</li>
+    <li>References to other documents e.g. Images and Videos</li>
+    <li>Links to other pages</li>
+    </ul>
+      <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48724340"> This
+      video</a> gives a good overview.
+    
+
+    <b>Tags and Elements</b>
+    <p>HTML markup is made up of <b>tags</b>. When writing HTML you will have an opening tag, followed by content, followed by a closing tag. This combination is known as an <b>elements</b>. See diagram below:
+    <br><br><img class="tags" src="http://www.idealsealants.com/downloads/1428673137tag_diagram.jpg" alt="diagram of how the web works">
+    <br><br>For further clarification see  <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48723444">this video</a>.
+    </p>
+    <b>One mistake can cost alot of time!</b>
+    <p>Computers are very unforgiving one mistake when writing code can cost a lot of time! Literally a tag in the wrong place or a missed tag can completely change the layout of a HTML document.
+    </p>
+    <b>Creating white space</b>
+    <p>We learnt two ways of creating white space during Stage 0. One of which was a <i>void tag</i> i.e. the break tag and other a <i>non-void tag</i> i.e. the paragraph tag. Void tags do not have content, non-void tags do have content.</p>
+    <b>Inline vs Block Elements</b>
+    <p>HTML elements are either <b>inline</b> or <b>block</b>. Block elements form an "invisible box" around the content inside of them. The following are inline and block elements learnt within Stage 0 or used within this exercise
+    </p>
+    <table>
+    <tr><td>Inline Elements</td>
+      <td>Block Elements</td>
+    </tr>
+    <tr><td>br tag - break tag</td><td>p tag - paragraph tag</td></tr>
+    <tr><td>img tag - image tag</td><td>h1-h6 tag - headings by importance tag</td></tr>
+    <tr><td>a tag - anchor tag / making links tag</td><td>title tag - defines title seen in browser toolbar</td></tr>
+    <tr><td>i/em tag - italics tag</td><td>head tag - this encapsulates title/scripts/styles/meta-data and more</td></tr>
+    <tr><td>b tag - bold tag</td><td>body tag - defines document body</td></tr>
+    <tr><td>span tag - groups elements</td><td>ul tag - unordered/bullet point list</td></tr>
+    <tr><td></td><td>li tag - list item</td></tr>
+    <tr><td></td><td>table tag - starts a table</td></tr>
+    <tr><td></td><td>tr tag - creates a new row on a table</td></tr>
+    <tr><td></td><td>td tag - creates a new cell on a table row</td></tr>
+    <tr><td></td><td>div tag - groups elements</td></tr>
+    </table> 
+    </div>
+  </div>
+  <div class="lesson" id="lesson-1-2">
+    <div class="lesson-body">
+      <h2><u>Lesson 1.2: Creating a Structured Document</u></h2>
+      <b>The Languages of Web Development</b>
+      <p>There are 3 Languages used in front end web development</p>
+      <ol>
+      <li>HTML- structures the document</li>
+      <li>CSS- styles the document</li>
+      <li>Javascript- provides interactive components for the document</li>
+      </ol>
+      <b>How to view the Structure of a Webpage (Chrome)</b>
+      <p>To view the full HTML structure of a page follow these steps:
+      <br><br><u>Step 1 Click Menu Tab</u>
+      <img class="step-by-step" src="http://www.idealsealants.com/downloads/1429019214step_1.jpg" alt="Step 1 How to view the Structure of a Webpage">
+      <br><u>Step 2 Click More Tools and Developer Tools</u>
+      <img class="step-by-step" src="http://www.idealsealants.com/downloads/1429019244step_2.jpg" alt="Step 2 How to view the Structure of a Webpage">
+      <br><u>Step 3 You can now see the HTML code click the horizontal arrows to go deeper into the code</u>
+      <img class="step-by-step" src="http://www.idealsealants.com/downloads/1429019272step_3.jpg" alt="Step 3 How to view the Structure of a Webpage">
+      </p>
+      <b>Tree-like Structure</b>
+      <p>The tree like structure you can see in step 3 is referred to as the Document Object Model (DOM for short). The browser turns HTML tags into objects within a tree i.e.  a parent element can have many child elements. See <a href= "https://www.udacity.com/course/viewer#!/c-ud721-nd/l-3555039510/e-2771378561/m-2771378562">this video</a> for further details </p>
+      <b>Boxes, Boxes, Everywhere!</b>
+      <p> Everything on a webpage is made up of boxes the tag that allows us to do this is the <span class="highlight">div tag</span>. This tag is a block tag the inline version of this is the <span class="highlight">span tag</span>. Although you may see several different shapes on a webpage they are still a box with CSS providing style to create the illusion of an irregular shape.</p>
+      <b>Text Editors for Programmers</b>
+      <p>In order to write code it is imperative that we use a code editor. Code editors make our life much easier as the automatically generate a closing tag (in most cases) this reduces the chance of mistakes.</p>
+    </div>
+  </div>    
+  <div class="lesson" id="lesson-1-3">
+    <div class="lesson-body" ><h2><u>Lesson 1.3 Adding CSS Style and HTML Structure</u></h2>
+    <b>What is CSS?</b>
+    <p>CSS stands for cascading style sheets. This means a list of rules on the style of the document where the most specific rule applies. The most important thing to remember when designing the CSS sheet is to avoid repetition as this will save time and reduce chance of errors.</p>
+    <b>Inheritance and CSS</b>
+    <p>Inheritance is one of the most importance ideas within CSS. This is the idea that styling not only applies to the specified element but all its decendants unless over-ruled by a more specific rule.There are several benefits to this including saving bandwidth,enhancing loading time and saving time coding. However it is important to note that descendant elements do not inherit all properties in general it is only text related ones. </p>
+    <b>How create your rules using CSS</b>
+    <p>There are 3 parts to creating a rule in CSS first you must use a selector followed by a property and a value, to reduce repetition you only have to state the selector once you can then list your pairs of properties and values. There are 3 types of selector I will be using tag selector, class selector and id selector. Id selector being the most specific i.e over-rules the other selectors and tag selector being the least specific i.e. easiest to over-rule. When using a tag selector you just reference the tag in CSS, when using a class selector reference the class name preceeded by a dot and when referencing an id selector reference the id name preceeded by a hash tag. There are 3 other types of selector; attribute selectors, positional selectors and other pseudo selectors but as I am still very much a beginner and it is important to master the first 3. Briefly property refers to the style you would like to change and value is what you would like to change it to for example color and red. You can find a full list of attributes and styles <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">here</a>.</p>
+    <b>How to include CSS styling on my webpage</b>
+    <p>There are three ways of including CSS styling on my webpage the first I am going to discount as it is generally a bad idea, results in lots of repetition and can lead to a lot of mistakes i.e. writing inline with HTML. The second is ok for small projects but isn't the most organised i.e. writing CSS in the head you can do this by using the style tag and writing your CSS within the tag. This could be particularly useful for eBay descriptions as you are unable to link to an external stylesheet. The third is to write in a separate CSS file this is the most organised and what I have done on this project.</p>
+    </div>
+  </div>
+</body>
+
+</html>
